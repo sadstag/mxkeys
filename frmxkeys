@@ -1,0 +1,6 @@
+partial alphanumeric_keys
+xkb_symbols "frmxkeys" {
+  include "macintosh_vndr/fr(extended)"
+  key <LSGT> { [ at, numbersign, periodcentered, Ydiaeresis ] };
+  key <TLDE> { [ less, greater, lessthanequal, greaterthanequal ] };
+};
